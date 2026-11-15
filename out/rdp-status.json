@@ -1,25 +1,25 @@
 {
   "active": true,
-  "hostname": "fezastore-7",
+  "hostname": "fezastore-8",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
-    "disk_free_gb": 79.2,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 76.3
   },
   "rdp_port": 3389,
   "rdp_user": "fezastore",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-15T06:07:13Z",
-  "expires_at": "2026-11-15T11:49:13Z",
+  "started_at": "2026-11-15T12:01:40Z",
+  "expires_at": "2026-11-15T17:43:40Z",
   "duration_menit": 342,
-  "run_id": "43683915040",
+  "run_id": "43711638663",
   "run_attempt": "1",
-  "run_number": "7",
-  "run_url": "https://github.com/alsawebke-stack/reee/actions/runs/43683915040",
+  "run_number": "8",
+  "run_url": "https://github.com/alsawebke-stack/reee/actions/runs/43711638663",
   "mode": "bersih+win10",
   "runtimes": {
     "mode": "cepat",
@@ -37,35 +37,35 @@
     "vc2005x64": "dilewati (mode cepat)"
   },
   "persist": {
-    "profile": "C:\\Users\\fezastore",
     "source": "xyrdp-state.7z.enc",
-    "restored": true,
-    "files": 89
+    "profile": "C:\\Users\\fezastore",
+    "files": 89,
+    "restored": true
   },
   "storage": {
     "status": "ok",
     "mode": "boost-ringan",
-    "before_gb": 79.2,
-    "after_gb": 116.32,
-    "gained_gb": 37.12,
+    "before_gb": 76.3,
+    "after_gb": 108.39,
+    "gained_gb": 32.09,
     "removed_targets": 32,
     "drives": [
       {
         "size_gb": 255.45,
-        "free_gb": 116.32,
-        "letter": "C",
-        "used_gb": 139.12
+        "free_gb": 108.39,
+        "used_gb": 147.05,
+        "letter": "C"
       },
       {
-        "size_gb": 150.0,
-        "free_gb": 146.99,
-        "letter": "D",
-        "used_gb": 3.01
+        "size_gb": 219.98,
+        "free_gb": 219.84,
+        "used_gb": 0.14,
+        "letter": "D"
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-11-15T06:15:30.9851813Z"
+    "updated_at": "2026-11-15T12:10:28.1336874Z"
   },
   "win10": {
     "look": "ok",
@@ -76,64 +76,64 @@
     "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
   },
   "grafis": {
-    "vulkan": "lavapipe 1.3 (CPU)",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64",
-    "mesa": "26.2.6",
-    "adapters": "Microsoft Hyper-V Video",
     "mode": "software",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)"
+    "adapters": "Microsoft Hyper-V Video",
+    "mesa": "26.2.6",
+    "path": "C:\\XyRDP\\grafis\\mesa-x64",
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "vulkan": "lavapipe 1.3 (CPU)"
   },
   "games": {
-    "minecraft_java": {
-      "opengl46": false,
-      "tlauncher_jar": true,
-      "prismlauncher": true,
-      "official_exe": true,
+    "memu": {
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
       "status": "ready"
     },
     "ets2": {
       "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
       "status": "ready"
     },
-    "roblox": {
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
-      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass.",
-      "status": "installer_ready"
+    "blender": {
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
+      "status": "ready"
+    },
+    "minecraft_java": {
+      "official_exe": true,
+      "status": "ready",
+      "tlauncher_jar": true,
+      "opengl46": false,
+      "prismlauncher": true
     },
     "fivem": {
       "sound": true,
       "status": true
     },
-    "blender": {
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
-      "status": "ready"
-    },
-    "memu": {
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
-      "status": "ready"
+    "roblox": {
+      "status": "installer_ready",
+      "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass.",
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
     }
   },
   "tools_hub": {
-    "auto_start": true,
     "installed": true,
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe"
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
+    "auto_start": true
   },
   "akses": {
-    "mode": "tailscale",
-    "tailscale": {
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "status": "ok",
-      "ip": "100.78.108.48",
-      "hostname": "fezastore",
-      "magicdns": "fezastore.tailc577ed.ts.net."
-    },
     "tunnel": {
-      "address": "100.78.108.48:3389",
+      "status": "ok",
+      "host": "100.79.48.32",
+      "selftest": "ok",
       "outside": "tailscale",
       "port": 3389,
-      "selftest": "ok",
-      "host": "100.78.108.48",
+      "address": "100.79.48.32:3389"
+    },
+    "tailscale": {
+      "magicdns": "fezastore.tailc577ed.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "hostname": "fezastore",
+      "ip": "100.79.48.32",
       "status": "ok"
-    }
+    },
+    "mode": "tailscale"
   }
 }
